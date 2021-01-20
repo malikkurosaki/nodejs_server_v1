@@ -1,0 +1,17 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "absensi",
+            "database": "${workspaceFolder:makuro_absensi}/db.sqlite"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "absensi",
+            "database": "${workspaceFolder:makuro_absensi}/db.sqlite"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}

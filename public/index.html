@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.socket.io/socket.io-3.0.1.min.js"></script>
+    <script type="module" src="./malik.js"></script>
+
+</head>
+<body>
+
+    disini gaes
+    <script>
+        var socket = io("https://localhost:8000");
+        socket.emit("apa", "apa kabar gaes");
+        socket.on("apa", message => console.log(message));
+
+        console.log("disini");
+    </script>
+    
+</body>
+</html>
